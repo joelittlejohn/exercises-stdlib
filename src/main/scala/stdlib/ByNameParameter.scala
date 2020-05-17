@@ -37,7 +37,7 @@ object ByNameParameter
       }
     }
 
-    val y = calc { () => //Having explicitly declaring that Unit is a parameter with ()
+    val y = calc { () => // explicitly declaring that Unit is a parameter with ()
       14 + 15
     }
 
